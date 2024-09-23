@@ -1,0 +1,21 @@
+package Exception;
+
+public class ArrayIndexOutOfBounds {
+	public static void main(String[] args) {
+		
+		int a[] = {1,2,3,4,5,6,7,8,9};
+		
+		try {
+			System.out.println(a[11]);
+			
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.err.println("array ka size chota hai ");
+		}
+		
+		
+		
+	}
+	
+	
+
+}
